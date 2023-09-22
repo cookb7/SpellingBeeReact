@@ -1,38 +1,39 @@
 .App {
   text-align: center;
+  padding: 20px; /* Add padding around the entire App */
+  background-color: linen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-button {
+  background-color: gray; /* Change to your desired color code */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Define additional styles for hover and active states if desired */
+.custom-button:hover {
+  background-color: rgb(59, 158, 228); /* Change to a different color on hover */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-button:active {
+  background-color: green; /* Change to a different color on click/active state */
 }
 
-.App-link {
-  color: #61dafb;
+.text-input-container {
+  margin-top: 20px; /* Add margin at the top of the text input container */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-input {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: white; /* Change to your desired color code */
+  border-radius: 5px;
+  color: black;
 }
